@@ -1,0 +1,24 @@
+<?php
+	session_start();
+	if(!isset($_SESSION['username'])){
+		header('Location: login_view.php');
+	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Simple Sidebar - Start Bootstrap Template</title>
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	  	<script src="js/bootstrap.min.js"></script>
+		<script src="worksheet.js"></script>
+		<!-- Custom styles for this template -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/simple-sidebar.css" rel="stylesheet">
+	</head>
+	<body>
