@@ -20,8 +20,5 @@
 	if ($result) {
 		echo "your Data is Saved Successfully";
 	}
-	else{
-		echo mysqli_error($con);
-	}
 }
  ?>

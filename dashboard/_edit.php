@@ -11,7 +11,7 @@
 	echo '<div class="container-fluid">
         <div class="row" style="margin-top: 5%; height: 60vh;">
         	<div class="col-md-2"></div>
-        	<form class="col-md-8 container"style="background:white ; color:rgb(0,0,51); padding-top:10px;">
+        	<form class="col-md-8 container" style="background:white ; color:rgb(0,0,51); padding-top:10px;">
                 <div class="row" style="border-bottom: 2px solid rgb(0,0,51);;">
                     <div class="col-md-3"><h4> &#x270E; &nbsp;<b>Edit Task</b></h4></div>
                     <div class="col-md-4"></div>

@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>Simple Sidebar - Start Bootstrap Template</title>
+		<title>TMS</title>
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	  	<script src="js/bootstrap.min.js"></script>
 		<script src="worksheet.js"></script>
@@ -20,5 +20,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="css/simple-sidebar.css" rel="stylesheet">
+		<link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+		  <style type="text/css">
+        table tr td{
+          height: 2px;
+        }
+      </style>
 	</head>
 	<body>
