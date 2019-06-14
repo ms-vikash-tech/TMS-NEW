@@ -15,7 +15,7 @@
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="sidebarDropdown" >
                         <a class="dropdown-item" href="add_user.php"> &#x2b; &nbsp;Add User</a>
                          <a class="dropdown-item" href="view_user.php"> &#x1f441; &nbsp; View User</a>
-                        <a class="dropdown-item" href="_edit.php">  &#x270E; &nbsp;Edit Profile</a>       
+                        <a class="dropdown-item" href="edit_user.php">  &#x270E; &nbsp;  Edit User </a>       
               </div>
             </li>
         </ul>
@@ -27,8 +27,8 @@
                </a>
 
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="sidebarDropdown"> 
-                        <a class="dropdown-item" href="_edit.php">  &#x270E; &nbsp;Edit Task</a>     
-                        <a class="dropdown-item" href=""> &#x1f441; &nbsp; View Task</a> 
+                        <a class="dropdown-item" href="edit_task.php">  &#x270E; &nbsp;Edit Task</a>     
+                        <a class="dropdown-item" href="view_task.php"> &#x1f441; &nbsp; View Task</a> 
               </div>
             </li>
         </ul>

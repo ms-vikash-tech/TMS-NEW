@@ -8,7 +8,7 @@
         	<div class="col-md-2"></div>
         	<div class="col-md-8 container" style="background:white ; color:rgb(0,0,51);">
         		<div class="row" style="border-bottom: 2px solid rgb(0,0,51);">
-        			<div class="col-md-3"><h4> &#x270E; &nbsp;<b>Edit Task</b></h4></div>
+        			<div class="col-md-3"> &#x270E; &nbsp;<b style="font-size: 25px;">Edit Task</b></div>
         			<div class="col-md-4"></div>
         			<div class="col-md-2">
         				<label><?php echo date('d-m-Y');?></label>
