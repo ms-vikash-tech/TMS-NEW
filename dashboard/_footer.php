@@ -54,9 +54,10 @@
   <script src="js/sweetalert2.js"></script>
   <script src="vendor/datatables/jquery.dataTables.min.js"></script>
   <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
+  <script src="worksheet.js"></script>
   <!-- Page level custom scripts -->
   <script src="js/datatables-demo.js"></script>
+  <script src="js/clock.js"></script>
  
 </body>
 

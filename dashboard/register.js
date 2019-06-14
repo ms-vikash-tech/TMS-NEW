@@ -93,10 +93,20 @@ $(document).on('click','#register', function(e){
 			interntypekey:interntype,
 		},
 		success:function(data){
-			swal("Well Done",data, "success");
-			setInterval(function(){
-				window.location.href ="login_view.php";
-			},2000);
+			swal({
+				  text: data,
+				  type: 'success',
+				  title: 'Well Done',
+				  button: {
+				    text: "OK!",
+				    closeModal: false,
+				  },
+				})
+				.then(willSearch => {
+				  if (willSearch) {
+				    window.location.href="login.php";
+				  }
+				})
 		}
 	});
 }

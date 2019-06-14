@@ -3,6 +3,7 @@
 	if(!isset($_SESSION['username'])){
 		header('Location: login_view.php');
 	}
+	date_default_timezone_set('Asia/Kolkata');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,6 @@
 		<title>TMS</title>
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	  	<script src="js/bootstrap.min.js"></script>
-		<script src="worksheet.js"></script>
 		<!-- Custom styles for this template -->
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet"> 

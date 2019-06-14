@@ -23,9 +23,7 @@
                <div class="input-group-append">
                 <button class="btn btn-xs btn-info">&#x1F50D;</button>
               </div>
-              
           </div>
-
       </div><br/> -->
       <div class="row" style="border-bottom: 2px solid rgb(0,0,51);">
               <div class="col-md-3"> &#x1F4C1; &nbsp;<b style="font-size: 20px;">Add Task </b></div>
