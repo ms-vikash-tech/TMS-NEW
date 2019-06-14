@@ -18,7 +18,7 @@
              </a>
 
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="profile_details.php">Profile</a>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#changepassword">Change Password</a>
                 
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#myModal">Logout</a>

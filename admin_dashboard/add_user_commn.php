@@ -1,21 +1,18 @@
-<?php include('_header.php');?>
- <?php include('_top_menu.php');?>
- <?php include('_side_nav.php');?>
-    <div class="container-fluid">
-    	<div class="row" style="margin-top: 5%; height: 60vh;">
+<div class="container-fluid">
+    	<div class="row" style="margin-top: 5%; height: 70vh;">
         	<div class="col-md-2"></div>
-			<div class="col-sm-8" style="background:white; min-height: 470px; border:2px solid green; border-radius:0px 10px 10px 0">
+			<div class="col-sm-8" style="background:white; min-height:400px; border:2px solid green; border-radius:0px 10px 10px 0">
 			     	<div id='a'>
 				     	 <h4 > Basic Detail</h4>
 				     	 <br/><br/>
 					     <label style="margin-top:10px; margin-bottom:0px;">Name</label><br/>
 					     
-					    <input type="text" placeholder=" Enter Your Name.." class="form-control"  required="true" id="name" ><br/>
+					    <input type="text" placeholder=" nidhi" class="form-control"  required="true" id="name" ><br/>
 					    <label style="margin-top:10px; margin-bottom:0px;">Mobile-no</label><br/>
-					    <input type="number" placeholder="  Your Mobile-no.." class="form-control" required="true" id="mobileno"><br/>
+					    <input type="number" placeholder=" 34567890 "class="form-control" required="true" id="mobileno"><br/>
 						
 						<label style="margin-top:10px; margin-bottom:0px;">Email</label><br/>
-					    <input type="email" placeholder=" Enter Your Email.." class="form-control" required="true" id="email"><br/><br/>
+					    <input type="email" placeholder=" thepostmaster7@gmail.com" class="form-control" required="true" id="email"><br/><br/>
 						
 						<button class="btn "  style="background:rgb(0, 0, 51); color:#fff;" id="pageOneNextButton" >Next</button><br/><br/>
 						
@@ -25,15 +22,15 @@
 						 <h4 > Personal Detail </h4><br/><br/>
 				     <label style="margin-top:10px; margin-bottom:0px;">Father Name</label><br/>
 				     
-				    <input type="text" placeholder="father name.." class="form-control" required="true" id="fname"><br/>
+				    <input type="text" placeholder="erjgjgife" class="form-control" required="true" id="fname"><br/>
 				    <label style="margin-top:10px; margin-bottom:0px;">DOB</label><br/>
-				    <input type="date" placeholder="date of birth.." class="form-control" required="true" id="dob"><br/>
+				    <input type="date" placeholder="03/12/1996" class="form-control" required="true" id="dob"><br/>
 					
 					<label style="margin-top:10px; margin-bottom:0px;">Aadhar Number</label><br/>
-				    <input type="number" placeholder="aadhar number.." class="form-control" required="true" id="aadhar" /><br/>
+				    <input type="number" placeholder="245678909876" class="form-control" required="true" id="aadhar" /><br/>
 
 				    <label style="margin-top:10px; margin-bottom:0px;">Address</label><br/>
-				    <input type="text" placeholder="Enter Your Address.." class="form-control" required="true" id="address" /><br/>
+				    <input type="text" placeholder="ertytwrthggrerjhngtgfhehrfu" class="form-control" required="true" id="address" /><br/>
 					<br/>
 					 <div >
 						
@@ -44,17 +41,17 @@
 					</div>
 
 					   <div id='c'>
-						 <h4 >Educational Details</h4><br/><br/>
+						 <h5 >Educational Details</h5><br/><br/>
 
 						 <label style="margin-top:10px; margin-bottom:0px;">Highest Qualification </label><br/>
-				    <input type="text" placeholder="Enter Your Highest Qualification" class="form-control" required="true" id="qua"><br/>
+				    <input type="text" placeholder="Graduate" class="form-control" required="true" id="qua"><br/>
 				     <label style="margin-top:10px; margin-bottom:0px;">Percent/CGPA</label><br/>
 				     
-				    <input type="number" placeholder="Enter Your CGPA/Percent" class="form-control" required="true" id="cgpa"><br/>
+				    <input type="number" placeholder="64%" class="form-control" required="true" id="cgpa"><br/>
 				    <label style="margin-top:10px; margin-bottom:0px;">School/College</label><br/>
-				    <input type="text" placeholder="Enter Your School/College" class="form-control" required="true" id="sch"><br/>
+				    <input type="text" placeholder="Cimage college" class="form-control" required="true" id="sch"><br/>
 				    <label style="margin-top:10px; margin-bottom:0px;">University/Board</label><br/>
-				    <input type="text" placeholder="Enter Your Board/University" class="form-control" required="true" id="board"><br/>
+				    <input type="text" placeholder="Magadh University" class="form-control" required="true" id="board"><br/>
 				    <br/>
 					
 					
@@ -79,14 +76,7 @@
 
 						    <input type="file" name="myfile"  required="true" id="file"><br/><br/>
 				     	 <p><input type="checkbox"><a href="#">&nbsp;I agree terms and condition</a></p><br/>
-				     	 
- 							
-
-					
-
-						
-							<br/><br/>
-
+							
 							<p><button class="btn btn-primary" id="btn4" style="background:rgb(0, 0, 51); color:#fff;" >Previous</button>
 				     	<input type="submit" class="btn" style="background: rgb(0, 77, 0); color:#fff;" value="submit"></p>
 					</div>
@@ -94,4 +84,3 @@
 				 <div class="col-md-2"></div>
 			</div>
 		</div>
-	<?php include('_footer.php');?>
