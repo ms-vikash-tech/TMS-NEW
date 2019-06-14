@@ -57,7 +57,8 @@
 
       <div class="row">
         <div class="col-md-12 table-responsive" style="background:#fff;">
-          <table style=" width:100%;  ">
+          <table  class="table table-bordered " id="dataTable" style=" width:100%;  ">
+            <thead>
             <tr>
               <th>S.no</th>
               <th>Name</th> 
@@ -66,7 +67,8 @@
                <th>Mobile.no</th>
                 <th>Email</th>
                  <th><a href="#" data-toggle="modal" data-target="#more" style="color:#fff;">More</a></th>
-            </tr>
+            </tr></thead>
+            <tbody>
             <tr>
               <td>1</td>
               <td>Today</td>
@@ -95,7 +97,7 @@
               <td>the graphic,layouts </td>
               <td><a href="#" data-toggle="modal" data-target="#more" style="color:rgb(0,0,51);">View Details</a> </td>
 
-            </tr>
+            </tr></tbody>
             
           </table>
         </div>

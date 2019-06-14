@@ -14,10 +14,7 @@
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-  
-
+  <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
   <title>Admin Dashboard</title>
 
   <!-- Bootstrap core CSS -->

@@ -57,7 +57,8 @@
 
       <div class="row">
         <div class="col-md-12 table-responsive" style="background:#fff; ">
-          <table style=" width:100%;  ">
+          <table class="table table-bordered" id="dataTable" style=" width:100%;  ">
+           <thead>
             <tr>
               <th>S.no</th>
               <th>Date</th> 
@@ -66,6 +67,8 @@
                <th>Description</th>
                  <th>Edit</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>1</td>
               <td>13/06/19</td>
@@ -101,7 +104,7 @@
                  <td><a href="#" data-toggle="modal" data-target="#edittask" style="color:rgb(0,0,51);">Edit</a></td>
 
             </tr>
-            
+            </tbody>
           </table>
         </div>
       </div>

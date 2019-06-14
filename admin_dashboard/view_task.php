@@ -58,8 +58,10 @@
       <div class="row" >
         <div class="col-md-12 table-responsive" style="background:#fff; ">
 
-          <table style=" width:100%;  ">
+          <table  class="table table-bordered"  id="dataTable" style=" width:100%;  ">
+            <thead>
             <label>Today</label>
+
             <tr>
               <th>S.no</th>
               <th>Date</th> 
@@ -67,7 +69,8 @@
               <th>Title</th>
                <th>Description</th>
                  
-            </tr>
+            </tr></thead>
+            <tbody>
             <tr>
               <td>1</td>
               <td>13/06/19</td>
@@ -100,6 +103,7 @@
                   the graphic,layouts 
                  the graphic,layouts  s</p></td>
             </tr>
+          </tbody>
           </table>
           <br/>
           <table style=" width:100%;  ">
