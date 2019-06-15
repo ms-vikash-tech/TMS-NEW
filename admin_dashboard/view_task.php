@@ -18,42 +18,7 @@
                 <label><?php echo date('H:i:s a');?></label>  
               </div>    
           </div>
-      <div class="row">
-        <div class="col-md-6  "  style="margin-top: 20px;">
-          <div class="row">
-            <div class="col-md-12" style="background: #fff;color:rgb(0,0,51);">
-              <label>Date....</label><br/>
-              
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 input-group" style="backgroud:#fff;color:rgb(0,0,51);">
-              <label>&nbsp;From</label>&nbsp;
-                  <input type="date" placeholder="dd/mm/yyyy" class="form-control" style=" border: 1px solid rgb(0,0,51);">
-                  <label>&nbsp;to</label>&nbsp;
-                 <input type="date" placeholder="dd/mm/yyyy" class="form-control"  style="border: 1px solid rgb(0,0,51);" >  
-                       <div class="input-group-append">
-                            <button class="btn btn-xs btn-info ">&#x1F50D;</button>
-                 </div>
-            </div>
-          </div>
-         </div>
-         <div class="col-md-2"></div>
-            <div class=" col-md-4" style="margin-top: 20px;">
-              <div class="row">
-                <div class="col-md-12" style="background:#fff;color:rgb(0,0,51);"><label>Search</label></div>
-              </div>
-              <div class="row">
-               <div class="col-md-12 input-group "> 
-                <input type="text" class="form-control" placeholder="Enter Name.." style="border: 1px solid rgb(0,0,51);">
-               <div class="input-group-append">
-                <button class="btn btn-xs btn-info">&#x1F50D;</button>
-              </div>
-              </div>
-              
-          </div>
-          </div>
-        </div><br/>
+      <br/>
 
       <div class="row" >
         <div class="col-md-12 table-responsive" style="background:#fff; ">

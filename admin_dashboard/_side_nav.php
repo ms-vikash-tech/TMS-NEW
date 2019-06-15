@@ -9,7 +9,8 @@
         <ul style="list-style-type: none; margin-top:15px; margin-bottom: 5px; margin-left: 0px;">
                      <li class="side-item dropdown">
                       
-              <a class="side-link dropdown-toggle"  id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(0,0,51);"> &#x1F4C1; &nbsp; User
+              <a class="side-link dropdown-toggle"  id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(0,0,51);"><i class="fa fa-user" aria-hidden="true"></i>
+ &nbsp; User
               </a>
 
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="sidebarDropdown" >
