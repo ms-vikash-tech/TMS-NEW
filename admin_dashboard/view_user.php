@@ -18,7 +18,7 @@
                 <label><?php echo date('H:i:s a');?></label>  
               </div>    
           </div>
-      <div class="row">
+  <!--    <div class="row">
         <div class="col-md-6  "  style="margin-top: 20px;">
           <div class="row">
             <div class="col-md-12" style="background: #fff;color:rgb(0,0,51);">
@@ -53,7 +53,7 @@
               
           </div>
           </div>
-        </div><br/>
+        </div> --><br/>
 
       <div class="row">
         <div class="col-md-12 table-responsive" style="background:#fff;">
@@ -61,43 +61,30 @@
             <thead>
             <tr>
               <th>S.no</th>
-              <th>Name</th> 
-              <th>Date of Registration</th>
               <th>User Id</th>
-               <th>Mobile.no</th>
-                <th>Email</th>
-                 <th><a href="#" data-toggle="modal" data-target="#more" style="color:#fff;">More</a></th>
+              <th>Name</th> 
+              <th>Email</th>
+              <th>Mobile.no</th>
+              <th>More</th>
             </tr></thead>
             <tbody>
-            <tr>
-              <td>1</td>
-              <td>Today</td>
-              <td>Task management System</td>
-              <td><p>Lorem ipsum is .</p></td>
-              <td> print, and publishing  </td>
-              <td>the graphic,layouts </td>
-              <td><a href="#" data-toggle="modal" data-target="#more" style="color:rgb(0,0,51);">View Details</a>  </td>
-            </tr>
 
-            <tr>
-              <td>1</td>
-              <td>Today</td>
-              <td>Task management System</td>
-              <td><p>Lorem ipsum is placeholder text commonly used </p></td>
-              <td> print, and publishing industries for previewing </td>
-              <td>the graphic,layouts and visual mockups</td>
-              <td><a href="#" data-toggle="modal" data-target="#more" style="color:rgb(0,0,51);">View Details</a></td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Today</td>
-              <td>Task management System</td>
-              <td><p>Lorem ipsum is placeholder text commonly used in</p></td>
-              <td> print, and publishing  </td>
-              <td>the graphic,layouts </td>
-              <td><a href="#" data-toggle="modal" data-target="#more" style="color:rgb(0,0,51);">View Details</a> </td>
-
-            </tr></tbody>
+<?php      $query ="SELECT * FROM `user_details` ";
+           $con = mysqli_connect('localhost','root','','task_management');
+           $result =  mysqli_query($con,$query);
+           $s_no=1;
+           while ($row = mysqli_fetch_array($result)) {
+       echo'<tr>
+                <td align="center">'.$s_no.'</td>
+                <td>'.$row["user_id"].'</td>
+                <td align="center">'.$row["name"].'</td>
+                <td>'.$row["email"].'</td>
+                <td>'.$row["mobile_no"].'</td>
+                <td><a href="#" data-toggle="modal" data-target="#more" style="color:rgb(0,0,51);">View Details</a>  </td>
+            </tr>';
+            $s_no++;} 
+?>
+            </tbody>
             
           </table>
         </div>

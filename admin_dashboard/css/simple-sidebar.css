@@ -107,10 +107,6 @@ td{
   border:2px solid rgb(0,0,102);
   padding-left: 15px;
   padding-right: 15px;
-
-
-  
-  
   }
   #ss{
     text-align: right;
@@ -134,4 +130,7 @@ td{
   #d{
     display: none;
   }
-
+  hr{
+    background-color: rgb(0,0,51);
+    height: 1px;
+  }
