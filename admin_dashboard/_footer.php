@@ -33,7 +33,7 @@
      </div>
      </div>
      <div class="modal fade" id="more" role="dialog" >
-    <div class="modal-dialog modal-lg" >
+    <div class="modal-dialog modal-xl" >
       <div class="modal-content" style="background: #fff; color:rgb(0,0,51);">
       	<div class="modal-body">
       	  
@@ -86,7 +86,7 @@
      </div>
 
       <div class="modal fade" id="edittask" role="dialog">
-    <div class="modal-dialog modal-lg" >
+    <div class="modal-dialog modal-xl" >
     
      
       <div class="modal-content" style="background: #fff; color:rgb(0,0,51);">

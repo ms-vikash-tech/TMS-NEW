@@ -18,6 +18,7 @@
                 <b><?php echo date('H:i:s a');?></b>  
               </div>    
           </div>
+<<<<<<< HEAD
 <!-- <div class="row">
         <div class="col-md-6  "  style="margin-top: 20px;">
           <div class="row">
@@ -54,6 +55,9 @@
           </div>
           </div>
         </div>--><br/>
+=======
+      <br/>
+>>>>>>> afec4f4d998a956de35f4ae1bc2e4bde15f6bda7
 
       <div class="row" >
         <div class="col-md-12 table-responsive" style="background:#fff; ">

@@ -7,6 +7,7 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10 "style="background: #fff; color:rgb(0,0,51); min-height:70vh;" >
+<<<<<<< HEAD
       <div class="row" style="border-bottom: 2px solid rgb(0,0,51);">
         <div class="col-md-3" style="background: #fff; color:rgb(0,0,51); border:0px;">&#x270E; &nbsp;<b style="font-size: 25px;">Edit User</b></div>
         <div class="col-md-4"></div>
@@ -54,6 +55,21 @@
           </div>
         </div> -->
         <br/>
+=======
+
+       <div class="row" style="border-bottom: 2px solid rgb(0,0,51);">
+              <div class="col-md-3" style="background: #fff; color:rgb(0,0,51); border:0px;">&#x270E; &nbsp;<b style="font-size: 25px;">Edit User</b></div>
+              <div class="col-md-4"></div>
+              <div class="col-md-2">
+                <label><?php echo date('d-m-Y');?></label>
+              </div>
+              <div class="col-md-3">
+                <label><?php echo date('H:i:s a');?></label>  
+              </div>    
+          </div>
+      <br/>
+
+>>>>>>> afec4f4d998a956de35f4ae1bc2e4bde15f6bda7
       <div class="row">
         <div class="col-md-12 table-responsive" style="background:#fff;">
           <table  class="table table-bordered"  id="dataTable" style=" width:100%;  ">
