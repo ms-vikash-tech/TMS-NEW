@@ -62,6 +62,10 @@ $(document).on('click','#register', function(e){
 	//validatedate(dob,"Invalid date of birth!");
 	var aadhar = $('#aadhar').val();
 	varifynull(aadhar,"Aadhar no. must be filled!");
+	var address = $('#address').val();
+	varifynull(address,"Address must be filled!");
+	var qualification = $('#quali').val();
+	varifynull(qualification,"Qualification must be filled!");
 	var mobileno = $('#mobileno').val();
 	varifynull(mobileno,"Mobile no. must be filled!");
 	var quali = $('#quali').val();
@@ -85,6 +89,7 @@ $(document).on('click','#register', function(e){
 			emailkey:email,
 			dobkey:dob,
 			aadharkey:aadhar,
+			addresskey:address,
 			mobilenokey:mobileno,
 			qualikey:quali,
 			cgpakey:cgpa,
@@ -104,13 +109,13 @@ $(document).on('click','#register', function(e){
 				})
 				.then(willSearch => {
 				  if (willSearch) {
-				    window.location.href="login_view.php";
+				    window.location.href="add_user.php";
 				  }
 				})
 		}
 	});
 }
 else{
-	alert("error");
+	alert("Error");
 }
 });

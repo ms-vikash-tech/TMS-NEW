@@ -9,7 +9,7 @@
 	  <div class="row jumbotron" >
 	       <div class="col-md-1"></div> 
 	  	 <div class="col-md-1" >
-	  	 	<img src="picture.png" style="height:80px; border-radius: 600px; border:1px solid rgb(0,0,51);">
+	  	 	<img src="Picture.png" style="height:80px; border-radius: 600px; border:1px solid rgb(0,0,51);">
 
 	  	 </div>
             

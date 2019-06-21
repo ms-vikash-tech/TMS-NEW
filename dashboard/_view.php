@@ -43,7 +43,7 @@
             <tr>
               <th>S.no</th>
               <th>Date</th> 
-              <th>User ID</th>
+              <th>Email ID</th>
               <th>Title</th>
               <th>Description</th>
             </tr>
@@ -56,10 +56,10 @@
       $s_no=1;
       while ($row = mysqli_fetch_array($result)) {
        echo'<tr>
-              <td>'.$s_no.'</td>
+              <td align="center">'.$s_no.'</td>
               <td>'.$row["date_of_insertion"].'</td>
               <td>'.$row["user_id"].'</td>
-              <td>'.$row["title"].'</td>
+              <td align="center">'.$row["title"].'</td>
               <td>'.$row["description"].'</td>
             </tr>'  ;
             $s_no++;

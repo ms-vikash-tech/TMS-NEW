@@ -17,7 +17,7 @@
    		   </p>	 
 		  </div>       
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal" style="color:#fff;">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal" style="color:rgb(0,0,51);">Close</button>
         </div>
       </div>
     </div>

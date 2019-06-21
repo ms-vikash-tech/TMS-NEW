@@ -4,7 +4,7 @@
     <div class="border-right" id="sidebar-wrapper" >
       
       <div class="list-group list-group-flush">
-        <a href="index4.php" class="list-group-item list-group-item-action " style="background: #fff; color:rgb(0,0,51);">Dashboard</a>
+        <a href="index4.php" class="list-group-item list-group-item-action " style="background: #fff; color:rgb(0,0,51);">Admin Dashboard</a>
         
         <ul style="list-style-type: none; margin-top:15px; margin-bottom: 5px; margin-left: 0px;">
                      <li class="side-item dropdown">

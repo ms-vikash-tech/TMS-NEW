@@ -3,20 +3,19 @@
  <?php include('_top_menu.php');?>
  <?php include('_side_nav.php');?>
 
- <div class="container-fluid" style="margin-top: 5%; height: 60vh;">
+ <div class="container-fluid" style="margin-top: 5%;">
   <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-10 "style="background: #fff; color:rgb(0,0,51); min-height:70vh;" >
+    <div class="col-md-10 "style="background: #fff; color:rgb(0,0,51); height:76vh; overflow: scroll;" >
       <div class="row" style="border-bottom: 2px solid rgb(0,0,51);">
-              <div class="col-md-3" style="background: #fff; color:rgb(0,0,51); border:0px;">&#x270E; &nbsp;<b style="font-size: 25px;">Edit Task</b></div>
-              <div class="col-md-4"></div>
-              <div class="col-md-2">
-                <label><?php echo date('d-m-Y');?></label>
-              </div>
-              <div class="col-md-3">
-                <label><?php echo date('H:i:s a');?></label>  
-              </div>    
-<<<<<<< HEAD
+          <div class="col-md-3" style="background: #fff; color:rgb(0,0,51); border:0px;">&#x270E; &nbsp;<b style="font-size: 25px;">Edit Task</b></div>
+          <div class="col-md-4"></div>
+          <div class="col-md-2">
+            <label><?php echo date('d-m-Y');?></label>
+          </div>
+          <div class="col-md-3">
+            <label><?php echo date('H:i:s a');?></label>  
+          </div>    
       </div>
   <!--<div class="row">
         <div class="col-md-6  "  style="margin-top: 20px;">
@@ -54,15 +53,11 @@
           </div>
           </div>
         </div> -->
-        <br/>
-=======
-          </div>
+    
      <br/>
->>>>>>> afec4f4d998a956de35f4ae1bc2e4bde15f6bda7
-
       <div class="row">
         <div class="col-md-12 table-responsive" style="background:#fff; ">
-          <table class="table table-bordered dataTable" id="" style=" width:100%;  ">
+          <table class="table table-bordered dataTable" id="" style=" width:100%;">
            <thead>
             <tr>
               <th>S.no</th>
@@ -85,7 +80,7 @@
                     <td>'.$row["user_id"].'</td>
                     <td>'.$row["title"].'</td>
                     <td>'.$row["description"].'</td>
-                    <td align="center"><a href="#" data-toggle="modal" data-target="#edittask" style="color:rgb(0,0,51);" data-id="'.$row['user_id'].'">Edit</a></td>
+                    <td align="center"><a href="#" data-toggle="modal" style="color:rgb(0,0,51);" data-id="'.$row['user_id'].'" data-date="'.$row['date_of_insertion'].'" data-sno="'.$row['s_no'].'" class="edit_task" data-title="'.$row['title'].'" data-details="'.$row['description'].'">Edit</a></td>
                 </tr>';
                 $s_no++;} 
     ?>
@@ -98,3 +93,4 @@
   </div>
  </div>
  <?php include('_footer.php');?> 
+

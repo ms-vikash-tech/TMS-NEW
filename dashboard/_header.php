@@ -4,6 +4,7 @@
 		header('Location: login_view.php');
 	}
 	date_default_timezone_set('Asia/Kolkata');
+	require('learning.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +13,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>TMS</title>
+		<title><?php echo TOOLNAME.' - ';
+			echo rtrim( str_replace('_', '&ensp;', basename($_SERVER['REQUEST_URI'])),'.php');
+		?> </title>
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	  	<script src="js/bootstrap.min.js"></script>
 		<!-- Custom styles for this template -->

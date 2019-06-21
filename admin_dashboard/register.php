@@ -5,7 +5,9 @@ if(isset($_POST['submit']) && $_POST['submit']=='submit'){
 	$email= $_POST['emailkey'];
 	$dob = $_POST['dobkey'];
 	$aadhar = $_POST['aadharkey'];
+	$address = $_POST['addresskey'];
 	$mobileno = $_POST['mobilenokey'];
+	$quali = $_POST['qualikey'];
 	$cgpa = $_POST['cgpakey'];
 	$sch = $_POST['schkey'];
 	$board = $_POST['boardkey'];
@@ -13,7 +15,7 @@ if(isset($_POST['submit']) && $_POST['submit']=='submit'){
 	$DOB = date("Y-m-d",strtotime($dob));
 	$user_id = "TECH".rand(100,999);
 
-	$query="INSERT INTO `user_details`(`email` , `user_id` , `name`, `father_name`, `dob`, `percentage_cgpa`, `college_school`, `university_board`, `aadhar`, `mobile_no`, `internship_type`, `status`) VALUES ('".$email."','".$user_id."' , '".$name."', '".$fname."', '".$DOB."', '".$cgpa."', '".$sch."', '".$board."', '".$aadhar."', '".$mobileno."', '".$interntype."','1')";
+	$query="INSERT INTO `user_details`(`email` , `user_id` , `name`, `father_name`, `dob`, `qualification`, `percentage_cgpa`, `college_school`, `university_board`, `aadhar`, `mobile_no`, `address`, `internship_type`, `status`) VALUES ('".$email."','".$user_id."' , '".$name."', '".$fname."', '".$DOB."', '".$quali."', '".$cgpa."', '".$sch."', '".$board."', '".$aadhar."', '".$mobileno."', '".$address."', '".$interntype."','1')";
 	$con = mysqli_connect('localhost', 'root', '', 'task_management');
 	$result = mysqli_query($con, $query);
 	if($result) {

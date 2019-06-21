@@ -6,7 +6,7 @@
  <div class="container-fluid" style="margin-top: 5%; height: 60vh;">
   <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-10 "style="background: #fff; color:rgb(0,0,51); min-height:70vh;" >
+    <div class="col-md-10 "style="background: #fff; color:rgb(0,0,51); height:70vh; overflow: scroll;" >
 
        <div class="row" style="border-bottom: 2px solid rgb(0,0,51);">
               <div class="col-md-3" style="background: #fff; color:rgb(0,0,51); border:0px;">&#x1f441; &nbsp;<b style="font-size: 25px;">View User</b></div>
@@ -18,7 +18,6 @@
                 <label><?php echo date('H:i:s a');?></label>  
               </div>    
           </div>
-<<<<<<< HEAD
   <!--    <div class="row">
         <div class="col-md-6  "  style="margin-top: 20px;">
           <div class="row">
@@ -56,17 +55,12 @@
           </div>
         </div> --><br/>
 
-=======
-     
-          <br/>
->>>>>>> afec4f4d998a956de35f4ae1bc2e4bde15f6bda7
       <div class="row">
         <div class="col-md-12 table-responsive" style="background:#fff;">
-          <table  class="table table-bordered " id="dataTable" style=" width:100%;  ">
+          <table  class="table table-bordered dataTable" id="" style=" width:100%;  ">
             <thead>
             <tr>
               <th>S.no</th>
-              <th>User Id</th>
               <th>Name</th> 
               <th>Email</th>
               <th>Mobile.no</th>
@@ -81,11 +75,10 @@
            while ($row = mysqli_fetch_array($result)) {
        echo'<tr>
                 <td align="center">'.$s_no.'</td>
-                <td>'.$row["user_id"].'</td>
                 <td align="center">'.$row["name"].'</td>
                 <td>'.$row["email"].'</td>
                 <td>'.$row["mobile_no"].'</td>
-                <td><a href="#" data-toggle="modal" data-target="#more" style="color:rgb(0,0,51);">View Details</a>  </td>
+                <td><a href="#" class="view_user" data-toggle="modal" style="color:rgb(0,0,51);" data-id="'.$row['email'].'" data-sno="'.$row['s_no'].'">View Details</a>  </td>
             </tr>';
             $s_no++;} 
 ?>

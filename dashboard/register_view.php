@@ -116,6 +116,8 @@
 					    <input type="date" placeholder="Date of birth.." class="form-control" required="true" id="dob"><br/>
 						<label style="margin-top:10px; margin-bottom:0px;">Aadhar Number</label><br/>
 					    <input type="number" placeholder="Aadhar number.." class="form-control" required="true" id="aadhar"><br/>
+					    <label style="margin-top:10px; margin-bottom:0px;">Address</label><br/>
+				    	<input type="text" placeholder="Enter Your Address.." class="form-control" required="true" id="address" /><br/><br/>
 					    <input type="button" class="btn btn-primary" style="background:rgb(0, 0,51); color:#fff;" id="previous_1" value="Previous">
 					    <input type="button" class="btn btn-primary" style="background:rgb(0, 0,51); color:#fff;" id="next_2" value="Next"><br/><br/>
 					</div>
